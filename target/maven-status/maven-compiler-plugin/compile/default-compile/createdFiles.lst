@@ -1,0 +1,15 @@
+com/mercadolibre/service/impl/ForecastServiceImpl.class
+com/mercadolibre/service/impl/WeatherServiceImpl.class
+com/mercadolibre/config/AppConfig.class
+com/mercadolibre/model/Weather.class
+com/mercadolibre/enums/WheatherStatusEnum.class
+com/mercadolibre/dao/impl/WeatherDaoImpl.class
+com/mercadolibre/config/WebConfig.class
+com/mercadolibre/service/WeatherService.class
+com/mercadolibre/service/ForecastService.class
+com/mercadolibre/controller/ForecastController.class
+com/mercadolibre/job/ForecastJob.class
+com/mercadolibre/dto/WeatherDto.class
+com/mercadolibre/dao/WeatherDao.class
+com/mercadolibre/config/WebAppInitializer.class
+com/mercadolibre/model/Planet.class
