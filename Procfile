@@ -1,1 +1,1 @@
-web: java -Dhttps.protocols=TLSv1.2 -jar target/dependency/webapp-runner.jar --port target/weatherforecastsimulator.war
+web:    java $JAVA_OPTS -jar target/dependency/webapp-runner.jar --port $PORT target/*.war
