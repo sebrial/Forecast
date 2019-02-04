@@ -77,7 +77,8 @@ public class AppConfig {
 		final SimpleTriggerFactoryBean trigger = new SimpleTriggerFactoryBean();
 		trigger.setJobDetail(weatherForecastJob().getObject());
 		trigger.setStartDelay(1000);
-		trigger.setRepeatInterval(1200000);
+		trigger.setRepeatInterval(30000);
+		trigger.setRepeatCount(0);
 		return trigger;
 	}
 	
